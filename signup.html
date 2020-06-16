@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+</head>
+<body>
+	<header><a href="index.html"><img src="image/a.jpeg" alt="logo" width="60" height="60"></a>
+	</header>
+	<hr>
+	<nav>
+		<a href="index.html">Home</a> 
+		<a href=signup.html>Sign up</a>
+		<a href="contactme.html">Contact me</a>
+	</nav>
+	<hr>
+	<div>
+		<h1>Course Sign Up Page</h1>
+		Please Note: First Name, Last Name, Password, and Email are required.
+		<form>
+			<table>		
+				<tr><td>First Name <input type="text" placeholder="First Name" name="First Name autofill" required=""></td></tr>
+				<tr><td>Last Name <input type="text" placeholder="Last Name" name="Last Name" required=""></td></tr>
+				<tr><td>Email<input type="text" placeholder="name@email.com" name="email" required=""></td></tr>
+				<tr><td>Password <input type="password" name="add" size=20 maxlength=30></td></tr>
+			</table>
+			<br>
+			Are you over the age 18?<br>
+			<table><tr><td>
+			<input type="radio" name="r2" value="Yes">Yes
+			<input type="radio" name="r2" value="No">No
+			</td></tr></table>
+			<br>
+			Do you have Pay Pal or Credit Card?<br>
+			<table><tr><td>
+				<select>
+					<option>None</option>
+					<option>Pay Pal</option>
+					<option>Credit Card</option>
+				</select>
+			</td></tr></table>
+			<br>
+			<table>
+				<tr><td>Enter your DOB(after 1980-01-01)</td><td> <input type="text" name="date" placeholder="mm/dd/yy"></td></tr>
+			</table>
+			<br>
+			Message us:
+			<table>
+				<tr><td><textarea rows="10" cols="50"></textarea></td></tr>
+			</table>
+			<table><tr>
+				<td><input type="submit" onclick="alert('Submitted')" value="submit" name="submit"></td>
+				<td><input type="reset" value="reset" name="reset"></td>
+			</tr></table>
+
+		</form>
+	</div>
+</body>
+</html>
